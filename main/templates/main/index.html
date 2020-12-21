@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Welcome to the club, clown</h1>
+
+<div class="jumbotron mt-3">
+    <h1>Choose your clown</h1>
+    <p class="lead">Click on someone to see profile and give a cert</p>
+    <a class="btn btn-lg btn-primary" href="Oleg_Malyshev" role="button">Oleg Malyshev</a>
+    <a class="btn btn-lg btn-primary" href="Rodion_Pronin" role="button">Rodion Pronin</a>
+    <a class="btn btn-lg btn-primary" href="Alexander_Petrov" role="button">Alexander Petrov</a>
+    <a class="btn btn-lg btn-primary" href="Nikita_Kinelovsky" role="button">Nikita Kinelovsky</a>
+    <a class="btn btn-lg btn-primary" href="Stepan_Bazrov" role="button">Stepan Bazrov</a>
+  </div>
+<h2>{{Clown}} have certificate of the clown now</h2>
+{% load static %} <img src="{% static 'images\clown2.png' %}"/>
+</body>
+</html>
